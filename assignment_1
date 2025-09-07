@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Debug {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("How old are you? ");
+        String input = sc.nextLine();
+        System.out.println("You are " + input + "years old.");
+        Integer num1 = 10;
+        Integer num2 = 37;
+        System.out.println(num1 + num2)
+
+  }
+}
